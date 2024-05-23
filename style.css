@@ -31,9 +31,7 @@ outfit weighht 400,700*/
 body{
 
     background-color:var(--clr-light-blue);
-    display:flex;
-    justify-content: center;
-    align-content: center;
+   
 
 }
 
@@ -57,13 +55,24 @@ body{
     color: var(--clr-grayish-blue);
 }
 
-.container{
-    margin-top: 400px;
+main{
     
     display:flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    height:100vh;
+}
+
+.container{
+    
+    
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
     align-content: center;
+    
+    flex-wrap:wrap;
     width:320px;
     padding:22px;
     padding-bottom: 35px;
@@ -78,7 +87,8 @@ body{
 .qr_code{
     width:290px;
     border-radius: 10px;  
-    align-self: center;
+    align-items: center;
+    justify-content: center;
 }
 
 
